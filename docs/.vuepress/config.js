@@ -40,7 +40,16 @@ module.exports = {
 					children:[
 						['/select/select','选择器']
 					]
-				}
+                },
+                {
+                    title:'动画',
+                    collapsable:false,
+                    children:[
+                        ['/animation/animation','animation'],
+                        ['/animation/transition','transition'],
+                        ['/animation/transform','transform'],
+                    ]
+                }
 			],
 		 }
 	 }
