@@ -48,6 +48,14 @@ module.exports = {
                         ['/animation/animation','animation'],
                         ['/animation/transition','transition'],
                         ['/animation/transform','transform'],
+                        ['/animation/example','example'],
+                    ]
+                },
+                {
+                    title:'canvas',
+                    collapsable:false,
+                    children:[
+                        ['/canvas/canvas',"canvas"]
                     ]
                 }
 			],
