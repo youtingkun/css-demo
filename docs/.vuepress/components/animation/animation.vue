@@ -91,18 +91,18 @@ export default {
       showTimingFunction: true,
       showFillMode: true,
       showDelay: true,
-    }
+    };
   },
   methods: {
     replay(key) {
-      let that = this
-      this[key] = false
+      let that = this;
+      this[key] = false;
       setTimeout(() => {
-        that[key] = true
-      }, 500)
+        that[key] = true;
+      }, 500);
     },
   },
-}
+};
 </script>
 
 <style lang="scss" scoped>
